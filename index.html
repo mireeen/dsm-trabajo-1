@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body class="bg-light">
+
+
+    <div class="container-fluid mb-5">
+        <nav class="navbar navbar-expand-lg bg-warning" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" height="60" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Zonas de Escalada
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Peñartea - Tiebas</a></li>
+                                <li><a class="dropdown-item" href="#">San Fausto - Eraul</a></li>
+                                <li><a class="dropdown-item" href="#">Aiztondo - Uharte Arakil</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Todas las zonas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex me-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Euskera</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bg-dark text-white" aria-current="page" href="#">Español</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Ingles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mb-5">
+        <h1 class="text-center animate__animated animate__flipInX">Murgildu zaitez eskaladan zehar.</h1>
+
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade my-3">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/6.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="container mb-5">
+        <h1 class="text-center mb-4">Noticias de Escalada</h1>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row g-4 justify-content-center py-4 bg-light rounded shadow-sm">
+            <div class="col-md text-justify">
+                <h1>Los proyectos de escalada deportiva más duros del mundo en 2026.</h1>
+
+                <p>El panorama mundial de la máxima dificultad en escalada deportiva se sitúa actualmente en el 9c. No
+                    hace
+                    ni un par de semanas que Sean Bailey anunció la cuarta propuesta de este grado tras la primera
+                    ascensión
+                    de Duality of man, en Dry Canyon (aunque había realizado el encadenamiento casi un año antes). Esta
+                    línea se sumaba a las otras tres que ya existían, aunque ninguna de ellas ha sido repetida todavía
+                    y,
+                    por tanto, su grado no está confirmado aún.</p>
+
+                <p>Adam Ondra inauguró el grado en 2017 con Silence en Flatanger. Tuvieron que pasar cinco años para que
+                    otro escalador hablara del 9c y fue Seb Bouin, con DNA en las Gorges du Verdon. En 2023, Jakob
+                    Schubert
+                    se sumó al grupo después de resolver el proyecto B.I.G. en Flatanger. Y finalmente, Sean Bailey lo
+                    hizo
+                    a principios de 2025.</p>
+
+                <p>¿Quién será el próximo? Nadie lo sabe, pero las redes sociales van llenas de rumores acerca de
+                    proyectos
+                    de la máxima dificultad que podrían unirse a esa lista en cualquier momento. Repasamos a
+                    continuación
+                    algunos de ellos: Uno de los más emblemáticos es Le Blond, el último gran proyecto de Chris Sharma
+                    en Oliana. Se trata de
+                    una línea de más de cuarenta metros sobre un fuerte desplome, con pequeños agarres y un final
+                    explosivo.
+                    El californiano la concibió como homenaje a Patrick Edlinger y nunca ha descartado del todo la
+                    posibilidad de encadenarla.</p>
+
+                <p>En Buoux, Le Bombé Bleu, equipada en 1991 por Marc Le Ménéstrel, sigue resistiendo a generaciones de
+                    escaladores de élite. Aunque se especuló durante años con una dificultad extrema, algunos creen que
+                    hoy
+                    en día rondaría más bien el 9b. El joven Erwan Legrand, que incluso lo prueba descalzo, es uno de
+                    los
+                    más decididos a resolverlo. En Margalef, Café Colombia se ha convertido en la obsesión de Jorge
+                    Díaz-Rullo, que lleva cerca de cinco
+                    años trabajando el proyecto. A pesar de haber encadenado una variante más sencilla con Café solo 9b,
+                    la
+                    línea principal sigue sin caer, y el propio escalador reconoce que le ha dado importantes lecciones
+                    mentales.</p>
+
+                <p>En Arco aparecen varias serias candidatas. La más renombrada es una variante con una entrada
+                    más directa de la ya durísima Excalibur 9b+, podría llevar la dificultad a un nuevo nivel. Stefano
+                    Ghisolfi estima que el arranque añade una secuencia de 8B+ de bloque sin reposos, lo que ha hecho
+                    surgir
+                    rumores de un posible 9c+. En la misma zona, King Line, la prolongación de Queen Line 9b, fue
+                    descrita
+                    por Ghisolfi como mucho más dura que Perfecto Mundo y también podría andar por el 9c, pero el sector
+                    Laghel en que se encuentra fue cerrado a los escaladores.</p>
+
+                <p>Seb Bouin tiene en cartera varios proyectos extraordinariamente duros. Respecto a Insouciance (en
+                    Russan) ya ha dejado caer abiertamente la posibilidad de un 9c+ en sus redes sociales. Y en
+                    Flatanger
+                    intenta resolver Move integral, una unión entre Move 9b/+ y Thor's Hammer 9a+ de más de cien metros
+                    que
+                    podría situarse en el 9c.</p>
+
+                <p>Flatanger también acoge Kangaroo's Dyno, proyecto de Jules Marchaland, mientras que en Red River
+                    Gorge
+                    concentra dos grandes incógnitas: The Odyssey, una enorme pared desplomada equipada por Adam Taylor
+                    y
+                    elogiada por Seb Bouin, y Wonka vision, una combinación con un inicio de bloque extremo que enlaza
+                    con
+                    la clásica Pure imagination.</p>
+            </div>
+
+            <div class="col-md">
+                <img src="images/sean.jpg" class="img-fluid rounded" alt="Sean Bailey escalando">
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-center py-4 bg-light rounded shadow-sm">
+            <div class="col-md text-justify">
+                <h1>Mikel Linacisoro se sube al 9a+ con 'Iñi Ameriketan'</h1>
+
+                <p>Mikel Linacisoro ha encadenado su vía más dura. El escalador guipuzcoano se ha anotado la repetición
+                    de
+                    Iñi Ameriketan 9a+ en Baltzola, una constatación más de que sigue creciendo en su escalada. En los
+                    últimos tiempos, coincidiendo con su periplo en Cataluña y sus entrenamientos en el CAR de Sant
+                    Cugat,
+                    ha cosechado buenos resultados en competición, como el título de Copa de España de Dificultad 2025 y
+                    sus
+                    encadenamientos más duros tanto en ensayado, a vista y al flash.</p>
+
+                <p>Para escalar su línea más dura, Mikel Linacisoro ha regresado a casa y se ha centrado en una vía
+                    clásica
+                    de la máxima dificultad. Iñi Ameriketan fue equipada en los inicios de la escalada en Baltzola
+                    (1995)
+                    por Iñigo Basterra, el primero en fijarse en la espectacular línea horizontal que discurría paralela
+                    a
+                    la célebre White zombie.</p>
+
+                <p>Después de años de olvido, Gotzon Gardeazabal se decidió a limpiarla para que las nuevas generaciones
+                    que empezaban a salir pudieran probarla, aunque nadie se animó hasta que Rikar Otegi se puso manos a
+                    la
+                    obra con ella y consiguió encadenarla en mayo de 2002, con propuesta de 9a.</p>
+            </div>
+
+            <div class="col-md">
+                <img src="images/mike.jpg" class="img-fluid rounded" alt="Mikel Linacisoro escalando">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h1 class="text-center mb-4">Frases Célebres de Escalada</h1>
+        <div class="row g-4 py-4">
+            <div class="col-lg">
+                <div class="p-4">
+                    <h3>Kylle Mills</h3>
+                    <p>"La escalada puede ser tan adictiva como la heroína, y a veces igual de peligrosa. </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="p-4">
+                    <h3>Joan-Enric Farreny</h3>
+                    <p>"Los viejos caminos tienen mucha experiencia." </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="p-4">
+                    <h3>Gaston Rébuffat</h3>
+                    <p>"El alpinista es quién conduce su cuerpo allá dónde un día sus ojos lo soñaron." </p>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="p-4">
+                    <h3>George Mallory</h3>
+                    <p>"¿Por qué subir montañas- Porque están ahí."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h1 class="text-center">Escalada Navarra</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Peñartea-Tiebas.
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img src="images/peñartea.jpg" class="img-fluid" alt="...">
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        San Fausto-Eraul. </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img src="images/sanfausto.jpg" class="img-fluid" alt="...">
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Aiztondo - Uharte Arakil. </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img src="images/aiztondo.jpg" class="img-fluid" alt="...">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row g-4 py-4">
+            <!-- Bloque de Login -->
+            <div class="col-12 col-md-6">
+                <div class=" p-4">
+                    <h3 class="mb-4">Iniciar Sesión</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="passwordInput" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="passwordInput" placeholder="Contraseña">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberCheck">
+                            <label class="form-check-label" for="rememberCheck">
+                                Recordarme
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Entrar</button>
+                        <div class="mt-3 text-center">
+                            <a href="#" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class=" p-4">
+                    <h3 class="mb-4">Nafarroa</h3>
+                    <img src="images/mapa.png" class="img-fluid rounded" alt="Mapa de zonas de escalada">
+                    <p class="mt-3 text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md text-center">
+                    <h5 class="mb-3">Acerca de</h5>
+                    <p class="text-white">Portal dedicado a la escalada deportiva en Navarra y el mundo. Información
+                        actualizada sobre rutas, noticias y eventos.</p>
+                </div>
+
+                <div class="col-md text-center">
+                    <h5 class="mb-3">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Zonas de Escalada</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Noticias</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md text-center">
+                    <h5 class="mb-3">Contacto</h5>
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-2">📧 info@escaladanavarra.com</li>
+                        <li class="mb-2">📞 +34 948 123 456</li>
+                        <li class="mb-2">📍 Pamplona, Navarra</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <p class="mb-0">&copy; 2026 Escalada Navarra. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
